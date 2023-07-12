@@ -1,0 +1,30 @@
+.Dashboard {
+   background: linear-gradient(to left , white , lightgreen);
+    padding: 20px;
+    border-radius: 5px;
+   
+    
+    p {
+      margin-bottom: 10px;
+      
+      b {
+        font-weight: bold;
+        color: #333333;
+      }
+      
+      button {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        padding: 5px 10px;
+        border-radius: 3px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        
+        &:hover {
+          background-color: #0056b3;
+        }
+      }
+    }
+  }
+  
